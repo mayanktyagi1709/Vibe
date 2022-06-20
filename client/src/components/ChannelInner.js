@@ -22,7 +22,7 @@ const ChannelInner = ({ setIsEditing }) => {
     let updatedMessage = {
       attachments: message.attachments,
       mentioned_users: message.mentioned_users,
-      parent_id: message.parent?.id,
+      parent_id: message.parent.id,
       parent: message.parent,
       text: message.text,
     };
